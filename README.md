@@ -13,5 +13,14 @@ I've used
     * wiremock to stub http calls in tests
     * junit5 for unit tests
     
+To start Main Application:
+
+```
+mvn clean install
+
+java -jar target/webcrawler-1.0.jar
+
+```
+
 
 
