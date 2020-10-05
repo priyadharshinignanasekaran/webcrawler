@@ -6,12 +6,6 @@ Web Crawler
 3. Extract main result links from the page
 4. Download the respective pages and extract the names of javascript libraries used in them
 5. Print top 5 most used libraries to standard output
-
-I've used 
-    * jsoup library for parsing HTML pages.
-    * completableFuture class for handling tasks that can run concurrently in a non-blocking way
-    * wiremock to stub http calls in tests
-    * junit5 for unit tests
     
 To start Main Application:
 
